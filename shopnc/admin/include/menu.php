@@ -183,7 +183,8 @@ if(C('mobile_isuse')){
 				)
 			);
 }
-if(C('microshop_isuse') !== null){
+//if(C('microshop_isuse') !== null){
+if(false){
 	$arr['top'][] = array(
 				'args'	=> 'microshop',
 				'text'	=> $lang['nc_microshop']);
@@ -202,7 +203,8 @@ if(C('microshop_isuse') !== null){
 				)
 			);
 }
-if(C('cms_isuse') !== null){
+//if(C('cms_isuse') !== null){
+if(false){
 	$arr['top'][] = array(
 				'args'	=> 'cms',
 				'text'	=> $lang['nc_cms']);
@@ -224,7 +226,8 @@ if(C('cms_isuse') !== null){
 			);
 }
 	
- if(C('circle_isuse') !== null){
+ //if(C('circle_isuse') !== null){
+if(false){
 	$arr['top'][] = array(
 			'args'	=> 'circle',
 			'text'	=> $lang['nc_circle']);

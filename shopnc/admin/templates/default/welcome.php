@@ -81,7 +81,9 @@
         </ul>
       </dd>
     </dl>
-    <?php if (C('cms_isuse') != null) {?>
+    <?php //if (C('cms_isuse') != null) {
+    if (false){
+    ?>
     <dl class="cms">
       <dt>
         <div class="ico"><i></i></div>
@@ -97,7 +99,9 @@
       </dd>
     </dl>
     <?php }?>
-    <?php if (C('circle_isuse') != null) {?>
+    <?php //if (C('circle_isuse') != null) {
+    if (false){
+      ?>
     <dl class="circle">
       <dt>
         <div class="ico"><i></i></div>
@@ -113,7 +117,9 @@
       </dd>
     </dl>
     <?php }?>
-    <?php if (C('microshop_isuse') != null){?>
+    <?php //if (C('microshop_isuse') != null){
+      if (false){
+    ?>
     <dl class="microshop">
       <dt>
         <div class="ico"><i></i></div>
