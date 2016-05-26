@@ -1,0 +1,14 @@
+
+
+# IntelliJ project files
+.idea
+*.iml
+vcs.xml
+out
+gen### CVS template
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+
+# Created by .ignore support plugin (hsz.mobi)
