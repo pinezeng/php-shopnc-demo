@@ -129,7 +129,7 @@
       </dd>
     </dl>
     <?php }?>
-    <dl class="system">
+    <dl class="system" style="display: none;">
       <dt>
         <div class="ico"><i></i><a id="UPDATE" style="visibility:hidden;" title="" target="_blank" href="javascript:void(0);"><sub><span>new</em></span></sub></a></div>
         <h3><?php echo $lang['dashboard_welcome_sys_info'];?></h3>
