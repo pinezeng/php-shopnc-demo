@@ -41,9 +41,11 @@ class seller_loginControl extends BaseSellerControl {
         }
 
         $model_seller = Model('seller');
+        //showMessage('seller_name -0 '.$_POST['seller_name'], '', '', 'error');
         $seller_info = $model_seller->getSellerInfo(array('seller_name' => $_POST['seller_name']));
-        if($seller_info) {
 
+        if($seller_info) {
+            //showMessage('seller_name -1 '.$seller_info, '', '', 'error');
             $model_member = Model('member');
             $member_info = $model_member->infoMember(
                 array(
